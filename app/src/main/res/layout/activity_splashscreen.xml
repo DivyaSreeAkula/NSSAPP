@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="206dp"
+        android:id="@+id/splash"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/nss1"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NATIONAL SERVICE SCHEME"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical|center"
+        android:height="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="0.21" />
+
+
+</LinearLayout>
